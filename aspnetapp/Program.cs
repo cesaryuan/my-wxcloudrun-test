@@ -6,7 +6,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<CounterContext>();
 
 var app = builder.Build();
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
